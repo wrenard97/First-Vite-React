@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'poppins';
+    src: url('./fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'crimson-text';
+    src: url('./fonts/CrimsonText-Regular.ttf');
+}
