@@ -1,21 +1,21 @@
 import { BrowserRouter } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
-import Burger from "./components/Burger";
-import Mail from "./components/Mail";
-import Phone from "./components/Phone";
+import Burger from "../assets/Burger";
+import Mail from "../assets/Mail";
+import Phone from "../assets/Phone";
 import Buttonstyle from "./components/Buttonstyle";
 
 function Home() {
   return (
     <BrowserRouter>
-      <div className="bg-home bg-top pb-36 sm:pb-54 sm:bg-100">
+      <div className="bg-home bg-top bg-no-repeat bg-black pb-36 sm:pb-54 sm:bg-100">
         <div className="flex flex-row justify-between text-yellow-500 px-8 py-5 text-xs font-poppins font-thin sm:px-48">
           <div className="flex flex-row gap-2 items-center">
-            <Mail />
+            <Mail width="12" height="8" />
             <a href="mailto:youremail@gmail.com">youremail@gmail.com</a>
           </div>
           <div className="flex flex-row gap-2 items-center">
-            <Phone />
+            <Phone width="9" height="13" />
             <a href="tel:+046123467"> (046) 123 - 4567</a>
           </div>
         </div>
@@ -24,7 +24,7 @@ function Home() {
           <p className="text-4xl text-yellow-500">BARBERS</p>
           <div className="sm:hidden ">
             <button className="cursor-pointer">
-              <Burger />
+              <Burger width="40px" color="#ffffff" height="40px" />
             </button>
           </div>
 

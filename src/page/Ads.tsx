@@ -2,9 +2,7 @@ import bgad from "../images/barber-brush-comb-897271.png";
 
 function Ads() {
   return (
-    <div
-      className="text-center px-12 py-12 bg-black bg-center bg-ads"
-    >
+    <div className="text-center px-12 py-12 bg-black bg-center bg-ads bg-no-repeat">
       <h3 className="font-crimsontext text-xl text-yellow-500 sm:text-3xl">
         GET FLAT 25% DISCOUNT!
       </h3>

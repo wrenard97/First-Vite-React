@@ -1,5 +1,5 @@
-import bgtest from "../images/background-1.png";
-import Ellipse from "./components/Ellipse";
+import Ellipse from "../assets/Ellipsefilled";
+import Ellipsefilled from "../assets/Ellipse";
 
 function Testimonials() {
   return (
@@ -22,7 +22,8 @@ function Testimonials() {
         <p className="">John Doe, CEO Microsoft</p>
         <p className="pb-8">July 17, 2018</p>
         <div className="flex flex-row">
-          <Ellipse />
+          <Ellipse width="12px" height="12px" />
+          <Ellipsefilled width="12px" height="12px" />
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
-import Location from "./components/Location";
-import Phone from "./components/Phone";
-import Mail from "./components/Mail";
+import Location from "../assets/Location";
+import Phone from "../assets/Phone";
+import Mail from "../assets/Mail";
 import Buttonstyle from "./components/Buttonstyle";
 function ContactUs() {
   return (
@@ -26,17 +26,17 @@ function ContactUs() {
               <p className="font-bold pb-2">Contact Information:</p>
 
               <div className="flex items-center gap-4">
-                <Location />
+                <Location width="9" height="13" />
                 <p>123 Your Address here</p>
               </div>
 
               <div className="flex items-center gap-4">
-                <Phone />
+                <Phone width="9" height="13" />
                 <p>(046) 123 - 456</p>
               </div>
 
               <div className="flex items-center gap-4">
-                <Mail />
+                <Mail width="12" height="8" />
                 <p>youremail@gmail.com</p>
               </div>
             </div>

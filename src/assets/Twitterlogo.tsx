@@ -1,6 +1,9 @@
-import React from "react";
+interface ITwitterlogo {
+  width: string;
+  height: string;
+}
 
-function Twitterlogo() {
+function Twitterlogo({ width, height }: ITwitterlogo): JSX.Element {
   return (
     <div>
       <svg

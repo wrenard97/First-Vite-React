@@ -1,9 +1,9 @@
 import { BrowserRouter } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
-import Facebooklogo from "./components/Facebooklogo";
-import Linkedinlogo from "./components/Linkedinlogo";
+import Facebooklogo from "../assets/Facebooklogo";
+import Linkedinlogo from "../assets/Linkedinlogo";
 import Map from "./components/Map";
-import Twitterlogo from "./components/Twitterlogo";
+import Twitterlogo from "../assets/Twitterlogo";
 
 function Footer() {
   return (
@@ -54,9 +54,9 @@ function Footer() {
             </ul>
 
             <div className="flex flex-row justify-center gap-6 items-center py-6">
-              <Facebooklogo />
-              <Twitterlogo />
-              <Linkedinlogo />
+              <Facebooklogo width="7" height="13" />
+              <Twitterlogo width="13" height="10" />
+              <Linkedinlogo width="13" height="13" />
             </div>
 
             <p className="text-xs">Barbers &copy; 2018. All Rights Reserved.</p>
