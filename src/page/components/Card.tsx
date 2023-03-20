@@ -2,17 +2,39 @@ import Buttonstyle from "./Buttonstyle";
 
 interface ICard {
   url: string;
-  title: string;
+  name: string;
   content?: string;
   size: string;
+  isSelected: boolean;
+  onClick: () => void;
 }
 
-function Card({ url, title, content, size }: ICard): JSX.Element {
+function Card({
+  url,
+  name,
+  content,
+  size,
+  isSelected,
+  onClick,
+}: ICard): JSX.Element {
   return (
-    <div className="pb-6 hover:shadow-2xl flex flex-col items-center">
+    <div
+      className={`pb-6 flex flex-col items-center ${
+        isSelected
+          ? "text-yellow-500 bg-gray-500 shadow-2xl border-2 border-black"
+          : ""
+      }`}
+      onClick={onClick}
+    >
       <img src={url} alt="" className={size} />
       <div className="w-72">
-        <h3 className="text-lg font-bold text-black pt-6 pb-3">{title}</h3>
+        <h3
+          className={`text-lg font-bold pt-6 pb-3 ${
+            isSelected ? "text-yellow-500" : null
+          }`}
+        >
+          {name}
+        </h3>
         {content ? (
           <p>{content}</p>
         ) : (
