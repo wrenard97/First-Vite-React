@@ -1,6 +1,6 @@
 import about_image from "../images/1.png";
 import Buttonstyle from "./components/Buttonstyle";
-import Titlehead from "./components/titlehead";
+import Titlehead from "./components/Titlehead";
 
 function AboutUs() {
   return (

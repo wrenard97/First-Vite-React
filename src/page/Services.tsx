@@ -1,7 +1,7 @@
 import serviceOne from "../images/service-1.png";
 import serviceTwo from "../images/service-2.png";
 import serviceThree from "../images/service-3.png";
-import CardServices from "./components/CardServices";
+import CardServices from "./components/Card";
 import Titlehead from "./components/Titlehead";
 
 function Services() {
@@ -18,22 +18,22 @@ function Services() {
         <CardServices
           url={serviceOne}
           title="CLASSIC HAIRCUT"
-          content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          content=""
+          size="h-56 w-72"
         />
 
         <CardServices
           url={serviceTwo}
           title="CLIPPER CUT"
-          content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          content=""
+          size="h-56 w-72"
         />
 
         <CardServices
           url={serviceThree}
           title="RAZOR SHAVER"
-          content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          content=""
+          size="h-56 w-72"
         />
       </div>
     </div>
