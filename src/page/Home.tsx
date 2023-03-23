@@ -3,7 +3,6 @@ import { HashLink } from "react-router-hash-link";
 import Burger from "../assets/Burger";
 import Mail from "../assets/Mail";
 import Phone from "../assets/Phone";
-import Buttonstyle from "./components/Buttonstyle";
 
 function Home() {
   return (
@@ -71,8 +70,8 @@ function Home() {
             eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
           </p>
           <div className="flex flex-col gap-2 pt-6 text-white sm:flex sm:flex-row sm:text-sm">
-            <Buttonstyle text="Learn More" backgroundcolor="bg-transparent" />
-            <Buttonstyle text="Contact Us" backgroundcolor="bg-transparent" />
+            <button className="buttonstyle1">Read More</button>
+            <button className="buttonstyle1">Contact Us</button>
           </div>
         </div>
       </div>

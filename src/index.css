@@ -11,3 +11,15 @@
     font-family: 'crimson-text';
     src: url('./fonts/CrimsonText-Regular.ttf');
 }
+
+.buttonstyle1 {
+    background-color: transparent;
+    border:0.15rem;
+    border-radius: 3rem;
+    text-transform: uppercase; 
+    height: 2.5rem; 
+    width: 8rem;
+    border-color: white;
+    border-style: solid;
+
+}

@@ -16,22 +16,13 @@ function Services() {
         <Titlehead title="NOTHING BUT THE BEST" subtitle="OUR SERVICES" />
       </div>
 
-      <div className="flex flex-col gap-8 sm:flex sm:flex-row sm:justify-items-center sm:gap-12">
-        {[
-          [serviceOne, "CLASSIC HAIRCUT"],
-          [serviceTwo, "CLIPPER CUT"],
-          [serviceThree, "RAZOR SHAVER"],
-        ].map(([url, name], index) => (
-          <Card
-            url={url}
-            name={name}
-            key={index}
-            size="h-56 w-72"
-            isSelected={selectedCardIndex === index}
-            onClick={() => handleCardClick(index)}
-          />
-        ))}
-      </div>
+      <Card
+        data={[
+          { id: 1, url: serviceOne, name: "CLASSIC HAIRCUT", isActive: false },
+          { id: 2, url: serviceTwo, name: "CLIPPER CUT", isActive: false },
+          { id: 3, url: serviceThree, name: "RAZOR SHAVER", isActive: false },
+        ]}
+      />
     </div>
   );
 }
