@@ -1,5 +1,3 @@
-import bgad from "../images/barber-brush-comb-897271.png";
-
 function Ads() {
   return (
     <div className="text-center px-12 py-12 bg-black bg-center bg-ads bg-no-repeat">

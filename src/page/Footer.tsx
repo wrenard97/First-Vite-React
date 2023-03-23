@@ -2,7 +2,7 @@ import { BrowserRouter } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import Facebooklogo from "../assets/Facebooklogo";
 import Linkedinlogo from "../assets/Linkedinlogo";
-import Map from "./components/Map";
+import Map from "../components/Map";
 import Twitterlogo from "../assets/Twitterlogo";
 
 function Footer() {

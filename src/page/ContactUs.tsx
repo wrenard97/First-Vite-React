@@ -1,7 +1,7 @@
 import Location from "../assets/Location";
 import Phone from "../assets/Phone";
 import Mail from "../assets/Mail";
-import Buttonstyle from "./components/Buttonstyle";
+import Buttonstyle from "../components/Buttonstyle";
 function ContactUs() {
   return (
     <div
