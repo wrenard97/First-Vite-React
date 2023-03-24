@@ -1,17 +1,14 @@
 import Buttonstyle from "./Buttonstyle";
-import Itype from "./../interface/Type";
+import IType from "./../interface/Type";
 
 interface ICard {
-  data: Itype;
+  data: IType;
   index: number;
   handleClick: Function;
 }
 
 const Card = ({ data, index, handleClick }: ICard) => {
   return (
-    // <div className="flex flex-col gap-8 justify-items-center items-center sm:flex sm:flex-row sm:justify-items-center sm:gap-12">
-    //   {selected.map((datas: Itype, index: number) => {
-    //     return (
     <div
       className={`pb-6 flex flex-col items-center ${
         data.isActive

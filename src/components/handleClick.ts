@@ -11,11 +11,10 @@ const handleClick = (
             ...elem,
             isActive: !elem.isActive,
           };
-        } else {
+        } 
           return {
             ...elem,
             isActive: false,
-          };
         }
       }),
     ]);
